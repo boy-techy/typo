@@ -1,0 +1,35 @@
+.header-details {
+  background-color: rgba(64, 117, 128, 0.67);
+  padding: 10px;
+  overflow: hidden;
+  h3{
+    font-family: 'Dancing Script', cursive;
+  }
+  h3,p {
+    display: inline-block;
+  }
+  p {
+    float: right;
+    span {
+      display: block;
+    }
+  }
+}
+
+.nav-bar {
+  background-color: rgba(128, 127, 121, 0.67);
+  ul {
+    display: flex;
+    list-style: none;
+    li {
+      flex-grow: 1;
+      text-transform: uppercase;
+      text-align: center;
+      padding: 15px 0;
+      &:hover {
+        background-color: aquamarine;
+        color: darkgrey;
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+.custom-carousel {
+  .slider-wrapper {
+    max-height: 500px;
+    .slider{
+      max-height: inherit;
+    }
+  }
+}
